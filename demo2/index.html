@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>A-Frame Demo 2</title>
+	<script src="../assets/js/aframe-v0.3.0.min.js"></script>
+</head>
+<body>
+<a-assets>
+	<img id="texture" src="../assets/images/texture.jpg">
+</a-assets>
+
+<!-- シーン -->
+<a-scene>
+	<!-- ボックス -->
+	<a-box src="#texture" position="0 0 -3" rotation="0 45 0" width="1" height="1" depth="1"></a-box>
+
+	<!-- 背景 -->
+	<a-sky color="#fafafa"></a-sky>
+</a-scene>
+</body>
+</html>
