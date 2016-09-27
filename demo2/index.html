@@ -6,12 +6,13 @@
 	<script src="../assets/js/aframe-v0.3.0.min.js"></script>
 </head>
 <body>
-<a-assets>
-	<img id="texture" src="../assets/images/texture.jpg">
-</a-assets>
-
 <!-- シーン -->
 <a-scene>
+	<!-- アセット -->
+	<a-assets>
+		<img id="texture" src="../assets/images/texture.jpg">
+	</a-assets>
+
 	<!-- ボックス -->
 	<a-box src="#texture" position="0 0.5 -1.5" rotation="0 45 0" width="1" height="1" depth="1"></a-box>
 
